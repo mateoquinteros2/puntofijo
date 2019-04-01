@@ -192,8 +192,8 @@ function F(x){
       }
       const trace4 = {
         x: [fa, fa, fa], 
-  		y: [fa-2, fa*2, 0.01],
-  		shape: "spline",
+	y: [0, fa, 0],
+	shape: "spline",
         name: 'raiz',
         type: 'scatter'
       }
